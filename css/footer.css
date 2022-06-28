@@ -45,3 +45,17 @@
         font-size: 1.5rem;
     }
 }
+
+
+@media (max-width: 400px) {
+    .footer-texto {
+        word-wrap: break-word;
+    }
+    .footer-contato li {
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    .footer-copy {
+        word-wrap: break-word;
+    }
+}
